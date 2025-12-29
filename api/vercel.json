@@ -1,7 +1,13 @@
 {
   "functions": {
-    "api/*.js": {
+    "ct-total-supply.js": {
       "runtime": "nodejs18.x"
     }
-  }
+  },
+  "rewrites": [
+    {
+      "source": "/ct-total-supply",
+      "destination": "/ct-total-supply"
+    }
+  ]
 }
